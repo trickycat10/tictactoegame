@@ -78,11 +78,11 @@ def checkWinner():
 
 
 buttons = StringVar()
-label = Label(tk, text="Player 1:", font="Times 20 bold", bg="white", fg='black', height=1, width=8)
+label = Label(tk, text="Player 1:", font="Times 16 bold", bg="white", fg='black', height=1, width=8)
 label.grid(row=1, column=0)
 
-label = Label(tk, text="Player 2:", font="Times 20 bold", bg="white", fg='black', height=1, width=8)
-label.grid(row=3, column=0)
+label = Label(tk, text="Player 2:", font="Times 16 bold", bg="white", fg='black', height=1, width=8)
+label.grid(row=2, column=0)a
 
 button1 = Button(tk, text="", font="Times 20 bold", bg='gray', fg="white", height=4, width=8,
                  command= lambda :buttonClick(button1))
